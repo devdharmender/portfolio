@@ -16,23 +16,43 @@ const EducationSection = () => {
   const educationData = [
     {
       degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      school: "govt boys senior secondary school (Shakurpur)",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
-      description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+      year: "2018-2020",
+      achievements: ["Percentage: 84%", "cirtificate : 2end in 11th"],
+      // skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      // description:
+      //   "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "Graduation (Bachelor's Degree)",
+      school: "Delhi University",
+      mascot: "📗",
+      year: "2020-2023",
+      achievements: ["GPA: 7.4"],
+      // skills: ["Literature", "Social Studies", "Economics", "History"],
+      // description:
+      //   "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+    },
+    {
+      degree: "Web Development Skills",
+      school: "Indian Institute of computer science (IICS)",
       mascot: "📗",
       year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
-      description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+      achievements: ["Score: Excellence","rank-3 in web development competition"],
+      // skills: ["Literature", "Social Studies", "Economics", "History"],
+      // description:
+      //   "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+    },
+    {
+      degree: "Upgrading Skills (JAVA)",
+      school: "Apna Collage",
+      mascot: "📗",
+      year: "Sigma 3 Betch",
+      achievements: ["Score: Persuing"],
+      // skills: ["Literature", "Social Studies", "Economics", "History"],
+      // description:
+      //   "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
     },
   ];
 
@@ -119,9 +139,9 @@ const EducationSection = () => {
                   </p>
                 </div>
 
-                <p className="text-gray-300 text-sm italic border-l-2 border-teal-500 pl-3">
+                {/* <p className="text-gray-300 text-sm italic border-l-2 border-teal-500 pl-3">
                   {edu.description}
-                </p>
+                </p> */}
 
                 <div className="space-y-3">
                   <h4 className="text-sm font-semibold text-white flex items-center gap-2">
@@ -141,7 +161,7 @@ const EducationSection = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-wrap gap-2">
+                {/* <div className="flex flex-wrap gap-2">
                   {edu.skills.map((skill, i) => (
                     <span
                       key={i}
@@ -150,7 +170,7 @@ const EducationSection = () => {
                       {skill}
                     </span>
                   ))}
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}

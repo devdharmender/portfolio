@@ -53,11 +53,12 @@ export default function Contact() {
 
     // Create a new FormData object to send to Web3Forms API
     const form = new FormData();
-    form.append("access_key", "90f4b8af-e590-42b0-beaf-10b18f66a703"); // Replace with your Web3Forms access key
-    form.append("name", formData.name);
-    form.append("email", formData.email);
-    form.append("subject", formData.subject || "New Contact Form Submission");
-    form.append("message", formData.message);
+form.append("access_key", "a02735cd-763f-4c2f-a3ef-00293ac102dd"); // <-- fix here
+form.append("name", formData.name);
+form.append("email", formData.email);
+form.append("subject", formData.subject || "New Contact Form Submission");
+form.append("message", formData.message);
+
 
     try {
       // Send form data to Web3Forms API
@@ -112,7 +113,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">olovajs@gmail.com</p>
+                    <p className="text-gray-400">dharmender.kumar89830@gmail.com</p>
                   </div>
                 </div>
 
@@ -122,7 +123,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Location</h3>
-                    <p className="text-gray-400">Laxmipure, Natore 6400</p>
+                    <p className="text-gray-400">Pitampura, Delhi 110034</p>
                   </div>
                 </div>
               </div>

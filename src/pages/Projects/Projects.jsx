@@ -5,44 +5,44 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Rashtriya Kishor Swasthya Karyakram (RKSK)",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "Developed and managed digital modules to monitor adolescent health (10–19 years), covering nutrition, mental health, and reproductive awareness. Integrated APIs for seamless data exchange across health centers and schools, improving reporting accuracy by 15%, and implemented role-based access for secure and efficient data management.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "https://i.postimg.cc/Qd4BKYJ2/project_gallery.png",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "#",
+    liveLink: "https://rksk.in/",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Tech Acceleration Platform for Rural Innovation (TAP-RISE)",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "Tech Acceleration Platform for Rural Innovation (TAP-RISE): Built a digital platform connecting rural innovators, mentors, and agencies, integrating tracking, analytics, and API-based collaboration to empower 100+ grassroots enterprises and accelerate sustainable rural development.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://i.postimg.cc/Prfrbzx7/tap-rise.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "#",
+    liveLink: "https://tap-rise.in/",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "Lappy Maker Mac Experts",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "Developed and managed a web platform where customers can view their service requirements, submit service requests, and contact support directly. Built features for daily page creation, application tracking, and customer relationship management (CRM). Designed user-friendly front-end interfaces while optimizing back-end performance and databases for secure, efficient handling of customer data.",
     src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+    link: "https://i.postimg.cc/Cx3g2jhK/lappymaker.png",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "#",
+    liveLink: "https://www.lappymaker.com/",
   },
   {
-    title: "CodeKori 🔥",
+    title: "Diagnosis CRM (Lappy Maker)",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "Developed and managed web applications for customer support and laptop service management. Built features for customer query handling, laptop submission, and status tracking. Implemented automated email notifications, customer portal, and billing management. Optimized server-side performance and relational databases (MySQL) for secure, efficient data handling, while designing front-end modules for user-friendly interfaces.",
     src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: "https://i.postimg.cc/GtnFHgxP/diagnosis_crm.jpg",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "#",
+    liveLink: "https://www.lappymaker.co/diagonis/",
   },
 ];
 

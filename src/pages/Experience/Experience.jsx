@@ -55,27 +55,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      title: "Junior Software Developer",
+      company: "Digitalki",
+      period: "Oct 2023 - Mar 2024",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Developed an auto-repair system by building relational databases, enhancing performance with efficient queries, APIs, caching, and collaborating via Git effectively"
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Full Stack Developer",
+      company: "Lappy Maker",
+      period: "Apr 2024 – Aug 2025",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Developed and optimized Laravel applications with efficient databases, faster APIs, and user-friendly front-end and back-end features.",
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      title: "Software Developer",
+      company: "Indev Consultency",
+      period: "Aug 2025 – Present",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Developed digital platforms supporting adolescent health tracking and rural innovation, empowering India’s youths and farmers through secure data and scalable solutions.",
     },
   ];
 

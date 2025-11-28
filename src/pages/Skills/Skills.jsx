@@ -2,7 +2,11 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
+import { DiJqueryLogo, DiCodeigniter, DiPhp, DiDatabase, DiGithubBadge, DiComposer, DiJava } from "react-icons/di";
+import { BiLogoCPlusPlus } from "react-icons/bi";
+import { IoLogoJavascript } from "react-icons/io5";
 import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import { CgDebug } from "react-icons/cg";
 import {
   FaReact,
   FaNodeJs,
@@ -12,6 +16,9 @@ import {
   FaLinux,
   FaFigma,
   FaAws,
+  FaBootstrap,
+  FaLaravel,
+  FaNpm
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -22,10 +29,15 @@ import {
   SiGraphql,
   SiJest,
   SiWebpack,
+  SiMysql,
   SiRedux,
   SiFirebase,
   SiVercel,
   SiVite,
+  SiPostman,
+  SiGitlab,
+  SiSololearn,
+  SiSocketdotio
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
@@ -71,20 +83,7 @@ const SkillsSection = () => {
       title: "Frontend Development",
       color: "text-blue-400",
       skills: [
-        { name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
-        {
-          name: "Next.js",
-          icon: <SiNextdotjs className="w-4 h-4 text-white" />,
-        },
-        {
-          name: "TypeScript",
-          icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />,
-        },
-        {
-          name: "Tailwind CSS",
-          icon: <SiTailwindcss className="w-4 h-4 text-[#38B2AC]" />,
-        },
-        {
+          {
           name: "HTML5",
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#E34F26]" />,
         },
@@ -92,6 +91,19 @@ const SkillsSection = () => {
           name: "CSS3",
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1572B6]" />,
         },
+        {
+          name: "JavaScript",
+          icon: <IoLogoJavascript className="w-4 h-4 text-[#f0db4f]" />,
+        },
+        {
+          name: "Tailwind CSS",
+          icon: <SiTailwindcss className="w-4 h-4 text-[#38B2AC]" />,
+        },
+        { name: "Bootstrap", icon: <FaBootstrap className="w-4 h-4 text-[#602C50]" /> },
+        {
+          name: "jQuery",
+          icon: <DiJqueryLogo className="w-4 h-4 text-[#0868AC]" />,
+        },    
       ],
     },
     {
@@ -100,68 +112,68 @@ const SkillsSection = () => {
       color: "text-green-400",
       skills: [
         {
-          name: "Node.js",
-          icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
+          name: "PHP",
+          icon: <DiPhp className="w-4 h-4 text-[#336791]" />,
         },
         {
-          name: "Python",
-          icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
+          name: "MySql",
+          icon: <SiMysql className="w-4 h-4 text-[#4479A1]" />,
         },
         {
-          name: "PostgreSQL",
-          icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
+          name: "Laravel",
+          icon: <FaLaravel className="w-4 h-4 text-[#FF2D20]" />,
         },
         {
-          name: "MongoDB",
-          icon: <SiMongodb className="w-4 h-4 text-[#47A248]" />,
+          name: "CodeIgniter",
+          icon: <DiCodeigniter className="w-4 h-4 text-[#DD4814]" />,
+        },
+        {
+          name: "SQL",
+          icon: <DiDatabase className="w-4 h-4 text-[#E10098]" />,
         },
         {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-        },
       ],
     },
-    {
-      icon: Layout,
-      title: "UI/UX Design",
-      color: "text-purple-400",
-      skills: [
-        { name: "Figma", icon: <FaFigma className="w-4 h-4 text-[#F24E1E]" /> },
-        {
-          name: "Responsive Design",
-          icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
-        },
-        {
-          name: "Wireframing",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
-        },
-        {
-          name: "Prototyping",
-          icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
-        },
-      ],
-    },
+    // {
+    //   icon: Layout,
+    //   title: "UI/UX Design",
+    //   color: "text-purple-400",
+    //   skills: [
+    //     { name: "Figma", icon: <FaFigma className="w-4 h-4 text-[#F24E1E]" /> },
+    //     {
+    //       name: "Responsive Design",
+    //       icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
+    //     },
+    //     {
+    //       name: "Wireframing",
+    //       icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
+    //     },
+    //     {
+    //       name: "Prototyping",
+    //       icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
+    //     },
+    //   ],
+    // },
     {
       icon: Cloud,
       title: "Cloud & DevOps",
       color: "text-orange-400",
       skills: [
-        { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
-        {
-          name: "Docker",
-          icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
-        },
-        { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
-        {
-          name: "Kubernetes",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
-        },
+        { name: "GitHub", icon: <DiGithubBadge className="w-4 h-4 text-[#ffffff]" /> },
         { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
-        { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
+        {
+          name: "Postman",
+          icon: <SiPostman className="w-4 h-4 text-[#EF5B25]" />,
+        },
+        { name: "Gitlab", icon: <SiGitlab className="w-4 h-4 text-[#F05032]" /> },
+        // {
+        //   name: "Kubernetes",
+        //   icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
+        // },
+        // { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
       ],
     },
     {
@@ -173,40 +185,39 @@ const SkillsSection = () => {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
         },
-        { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
         {
-          name: "Webpack",
-          icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
+          name: "Composer",
+          icon: <DiComposer className="w-4 h-4 text-[#8DD6F9]" />,
         },
-        { name: "Redux", icon: <SiRedux className="w-4 h-4 text-[#764ABC]" /> },
+        { name: "NPM", icon: <FaNpm className="w-4 h-4 text-[#cc3534]" /> },
         {
-          name: "Firebase",
-          icon: <SiFirebase className="w-4 h-4 text-[#FFCA28]" />,
+          name: "Debugger",
+          icon: <CgDebug className="w-4 h-4 text-[#ffffff]" />,
         },
         { name: "Vercel", icon: <SiVercel className="w-4 h-4 text-white" /> },
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
       ],
     },
     {
-      icon: Paintbrush,
-      title: "Creative Skills",
+      icon: SiSololearn,
+      title: "New Learning",
       color: "text-yellow-400",
       skills: [
         {
-          name: "UI Animation",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF4081]" />,
+          name: "Java",
+          icon: <DiJava className="w-4 h-4 text-[#FF4081]" />,
         },
         {
-          name: "SVG Animation",
-          icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />,
+          name: "C++",
+          icon: <BiLogoCPlusPlus className="w-4 h-4 text-[#659AD2]" />,
         },
         {
-          name: "3D Modeling",
-          icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
+          name: "C",
+          icon: <Cpu className="w-4 h-4 text-[#659AD2]" />,
         },
         {
-          name: "Motion Graphics",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,
+          name: "Web Sockets",
+          icon: <SiSocketdotio className="w-4 h-4 text-[#FF6D00]" />,
         },
       ],
     },
