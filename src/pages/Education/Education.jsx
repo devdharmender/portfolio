@@ -46,9 +46,9 @@ const EducationSection = () => {
     },
     {
       degree: "Upgrading Skills (JAVA)",
-      school: "Apna Collage",
+      school: "GeeksForGeeks",
       mascot: "📗",
-      year: "Sigma 3 Betch",
+      year: "2025",
       achievements: ["Score: Persuing"],
       // skills: ["Literature", "Social Studies", "Economics", "History"],
       // description:
