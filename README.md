@@ -17,7 +17,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ## Demo
 
-![Portfolio Demo]([https://i.postimg.cc/XJL26bb6/Screenshot-2025-11-28-at-12-34-27-PM.png])
+![Portfolio Demo](https://i.postimg.cc/XJL26bb6/Screenshot-2025-11-28-at-12-34-27-PM.png)
 
 ---
 ### 🎯 Project Structure
@@ -184,6 +184,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 <div align="center"> Made with ❤️ by Dharmender Kumar </div>
+
 
 
 
