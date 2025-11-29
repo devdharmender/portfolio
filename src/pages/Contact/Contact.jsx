@@ -113,7 +113,7 @@ form.append("message", formData.message);
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">dharmender.kumar89830@gmail.com</p>
+                    <p className="text-gray-400"><a href="mailto:dharmender.kumar89830@gmail.com">dharmender.kumar89830@gmail.com</a></p>
                   </div>
                 </div>
 
