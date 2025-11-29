@@ -49,7 +49,7 @@ export default function About() {
                         src={Indev}
                         alt="Indev Logo"
                         height="20"
-                        width="auto"
+                        width="60"
                       />
                       <span className="text-white">Indev Consultency</span>
                     </div>
