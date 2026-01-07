@@ -36,7 +36,7 @@ export default function About() {
               <div className="pt-6">
                 <blockquote className="border-l-4 border-gray-300 pl-4">
                   <p className="text-white">
-                    I'm a lifelong learner and problem-solver, focused on creating meaningful digital solutions. At Indev Consultancy Pvt. Ltd., I work on improving backend systems, optimizing data workflows, and building scalable, reliable applications. I’m always exploring new ideas and tools to contribute to the developer community and make a real impact.
+                    I'm a lifelong learner and problem-solver, focused on creating meaningful digital solutions. At AKC WEB TECH PVT. LTD. Pvt. Ltd., I work on improving backend systems, optimizing data workflows, and building scalable, reliable applications. I’m always exploring new ideas and tools to contribute to the developer community and make a real impact.
                   </p>
 
                   <div className="mt-6 space-y-3">
