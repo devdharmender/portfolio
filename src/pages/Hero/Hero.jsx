@@ -43,7 +43,7 @@ const GridBackground = () => {
 
 export default function Hero() {
   const words = [
-    "Software Developer At Indev Consultency",
+    "Software Developer At AKC WEB TECH PVT. LTD.",
     "Professional with Laravel Framework",
     "Learning Java with GeeksforGeeks",
     "Confortable with mac oprating system",
