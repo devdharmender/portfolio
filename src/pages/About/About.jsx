@@ -1,5 +1,5 @@
 import HeroImg from "@/assets/images/hero.png";
-import Indev from "@/assets/images/indev.png";
+import Indev from "@/assets/images/images.jpeg";
 
 export default function About() {
   return (
@@ -26,7 +26,7 @@ export default function About() {
               <p className="text-white">
                 Hello! I'm Dharmender Kumar, a Laravel developer passionate about building fast, scalable, and user-friendly web applications. I specialize in creating efficient backend systems, relational databases, and optimized APIs using Laravel, CodeIgniter, and MySQL.{" "}
                 <span className="font-bold text-white">
-                  As the Software Developer at the Indev Consultency 
+                  As the Software Developer at the AKC WEB TECH PVT. LTD. 
                 </span>
               </p>
               <p className="text-white">
@@ -51,7 +51,7 @@ export default function About() {
                         height="20"
                         width="60"
                       />
-                      <span className="text-white">Indev Consultency</span>
+                      <span className="text-white">AKC WebTech Pvt. Ltd.</span>
                     </div>
                   </div>
                 </blockquote>

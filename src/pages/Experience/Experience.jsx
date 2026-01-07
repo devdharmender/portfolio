@@ -54,12 +54,12 @@ const ExperienceCard = ({
 const ExperienceSection = () => {
   const experiences = [
     {
-      icon: Network,
-      title: "Junior Software Developer",
-      company: "Digitalki",
-      period: "Oct 2023 - Mar 2024",
+      icon: Code2,
+      title: "Software Developer",
+      company: "AKC WEB TECH PVT. LTD.",
+      period: "Aug 2025 – Present",
       description:
-        "Developed an auto-repair system by building relational databases, enhancing performance with efficient queries, APIs, caching, and collaborating via Git effectively"
+        "I am working as a **Software Developer at AKC Webtech Pvt. Ltd.**, contributing to *RetaSpect*, a secure pan-India retail system with multi-level authenticated access for retail management.",
     },
     {
       icon: Layers,
@@ -70,13 +70,14 @@ const ExperienceSection = () => {
         "Developed and optimized Laravel applications with efficient databases, faster APIs, and user-friendly front-end and back-end features.",
     },
     {
-      icon: Code2,
-      title: "Software Developer",
-      company: "Indev Consultency",
-      period: "Aug 2025 – Present",
+      icon: Network,
+      title: "Junior Software Developer",
+      company: "Digitalki",
+      period: "Oct 2023 - Mar 2024",
       description:
-        "Developed digital platforms supporting adolescent health tracking and rural innovation, empowering India’s youths and farmers through secure data and scalable solutions.",
+        "Developed an auto-repair system by building relational databases, enhancing performance with efficient queries, APIs, caching, and collaborating via Git effectively"
     },
+    
   ];
 
   return (
