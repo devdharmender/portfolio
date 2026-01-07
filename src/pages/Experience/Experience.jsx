@@ -56,7 +56,7 @@ const ExperienceSection = () => {
     {
       icon: Code2,
       title: "Software Developer",
-      company: "AKC WEB TECH PVT. LTD.",
+      company: "AKC WEB TECH",
       period: "Aug 2025 – Present",
       description:
         "I am working as a **Software Developer at AKC Webtech Pvt. Ltd.**, contributing to *RetaSpect*, a secure pan-India retail system with multi-level authenticated access for retail management.",
